@@ -45,7 +45,7 @@ p {
 
 
 .hero-image {
-    background-image: url('/km-background.jpg');
+    background-image: url('//kesmac.uk/km-background.jpg');
     height: 1067px;
     background-position: center center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
