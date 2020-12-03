@@ -49,7 +49,7 @@ p {
     height: 1067px;
     background-position: center center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain; /* Resize the background image to cover the entire container */
+    background-size: cover; /* Resize the background image to cover the entire container */
     background-attachment: fixed;
     background-color: #191C1E;
     z-index: 0;
