@@ -1,0 +1,50 @@
+# import 
+
+url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans')
+
+
+.header {
+    display: inline;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+body {
+
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+
+
+}
+
+.hero-image {
+    background-image: url('file:///Volumes/Data%20Drive/Users/danielbeddows/Sites/Wordpress2020/static/km-background.jpg');
+    height: 1067px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* background-color: #cccccc; */
+}
+
+.button {
+    text-transform: uppercase;
+    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;   
+    letter-spacing: 0px;
+
+}
+
+.home-content {
+    background-color: #1E2123;
+}
+
+.footer-widgets {
+    background-color: #25292B;
+}

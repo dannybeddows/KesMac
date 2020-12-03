@@ -1,0 +1,154 @@
+#import 
+
+url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+
+.header {
+    display: inline;
+}
+
+.logo {
+
+    position: fixed;
+    float: left;
+    padding-top: 20px;
+    left: 100px;
+    
+}
+
+.logo:hover {
+
+    -webkit-box-shadow: 4px 4px 42px 8px rgba(242,222,92,1);
+    -moz-box-shadow: 4px 4px 42px 8px rgba(242,222,92,1);
+     box-shadow: 4px 4px 42px 8px rgba(242,222,92,1);
+}
+
+body {
+
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+background-color: #1E2123;
+z-index: 100;
+
+
+}
+
+p {
+    text-transform: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.7em;
+    z-index: 100;
+
+}
+
+
+.hero-image {
+    background-image: url('file:///Volumes/Data%20Drive/Users/danielbeddows/Sites/Wordpress2020/static/km-background.jpg');
+    height: 1067px;
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+    background-color: #191C1E;
+    z-index: 0;
+}
+
+.home-hero {
+
+    z-index: 100;
+}
+
+/*.button {
+    text-transform: uppercase;
+    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;           
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 21px;
+    color: rgba(255,255,255,.6);
+    display: inline;
+    position: fixed;
+    padding:17px 40px;
+    text-decoration: none;
+    top: 626px;
+    left: 838px;
+    border-width: 1px;
+    z-index: 1;
+}
+
+.Button:hover {
+	background-color: yellow;
+}
+*/
+
+.home-content {
+    background-color: #1E2123;
+    margin-bottom:60px;
+    z-index: 999;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;           
+    letter-spacing: 0.2em;
+    text-align: center;
+    line-height: 1.28em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-style: normal;
+    padding-top: 70px;
+    margin-top: 0;
+    z-index: 100;
+}
+
+.home-content p {
+    color: white;
+    z-index: 100;
+}
+
+.footer-widgets {
+    background-color: #25292B;
+    padding: 80px 30px 60px;
+    
+}
+
+.fab, .far {
+    color:#ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icons {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 23px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+footer {
+       background-color: #191C1E;
+       margin: 0;
+}
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #999999;
+    padding: 23px;
+    float: left;
+    margin-left: 300px;
+}
