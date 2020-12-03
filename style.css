@@ -152,3 +152,7 @@ footer p {
     float: left;
     margin-left: 300px;
 }
+
+a:hover {
+	color: yellow;
+}
